@@ -1,4 +1,4 @@
-## A easy sentiment analysis baseline, can also be used for text classification
+# A easy sentiment analysis baseline, can also be used for text classification
 
 ## Usage
 
