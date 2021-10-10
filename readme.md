@@ -2,7 +2,7 @@
 
 ## Usage
 
-I created it for my own use. The model is trained on `weibo_senti_100k` dataset. Given a text, the model will give a score between 0 and 1 which represent the sentiment of the text. I use sliding window to handle long text which bert need to truncate.  More model will be tried in the future.
+I created it for my own use. The model is trained on `ChnSentiCorp` dataset. Given a text, the model will give a score between 0 and 1 which represent the sentiment of the text. I use sliding window to handle long text which bert need to truncate.  More model will be tried in the future.
 
 ## Prerequisites
 
