@@ -19,7 +19,8 @@ class BertSoftmax(BertPreTrainedModel):
         super(BertSoftmax, self).__init__(config)
         self.num_labels = config.num_labels
         self.bert = BertModel(config)
-        self.dropout = nn.Dropout(config.hidden_dropout_prob)
+        # self.dropout = nn.Dropout(config.hidden_dropout_prob)
+        self.dropout = nn.Dropout(0.5)
         self.classifier = nn.Linear(config.hidden_size, 1)
         self.activation = nn.Sigmoid()
         self.loss_type = config.loss_type
